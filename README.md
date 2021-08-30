@@ -46,7 +46,7 @@ git status
 - Accede a tu cuenta.
 - Accede al repositorio del profesor https://github.com/josefranciscomunozespinosa/git-practica-2/
 - Pulsa el botón fork (parte superior derecha) para crearte una copia del mismo en tu cuenta.
-- Clona el repositorio en tu equipo 'en otra carpeta diferente que la llamaremos git-practica-2'. Quedará algo parecido a lo siguiente:
+- Clona el repositorio en tu equipo *en otra carpeta diferente que la llamaremos 'git-practica-2'*. Quedará algo parecido a lo siguiente:
 ```bash
 git clone https://github.com/[tu-nombre-de-usuario]/git-practica-2.git
 ```
