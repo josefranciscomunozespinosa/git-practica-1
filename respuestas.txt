@@ -1,0 +1,6 @@
+1-Añadimos el/los archivos que queramos.
+2-Confirmamos los archivos subidos anteriormente. 
+3-No estan subidos, lo tenemos en local, necesita un push.
+4-Un git push.
+5-Fork no crea una copia en tu ordenador.
+6-No lo subimos a ningun repositorio remoto.
