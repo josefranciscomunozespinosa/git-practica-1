@@ -2,7 +2,7 @@
 Taller GIT. Práctica 2.
 
 
-## Trabajar con un proyecto HTML y un repositorio local.
+## Parte 1 - Trabajar con un proyecto HTML y un repositorio local.
 - Crea una carpeta practica-taller-git en tu pc.
 - Inicializa el repositorio. 
  ```bash
@@ -38,16 +38,25 @@ git status
 git status
 ```
 - Añade y confirma el .gitignore.
+```bash
+git add .gitignore
+git commit -m "añadido gitignore"
+```
 - Puedes continuar añadiendo ficheros html, css e imágenes para probar el repositorio.
+```bash
+git add *
+git commit -m "nuevos cambios"
+```
 
 
-## Haz un fork del repositorio creado para la práctica del taller:
+## Parte 2 - Haz un fork del repositorio creado para la práctica del taller:
 - Entra en https://github.com/
 - Accede a tu cuenta.
 - Accede al repositorio del profesor https://github.com/josefranciscomunozespinosa/git-practica-2/
 - Pulsa el botón fork (parte superior derecha) para crearte una copia del mismo en tu cuenta.
 - Clona el repositorio en tu equipo *en otra carpeta diferente que la llamaremos 'git-practica-2'*. Quedará algo parecido a lo siguiente:
 ```bash
+cd ..
 git clone https://github.com/[tu-nombre-de-usuario]/git-practica-2.git
 ```
 - Crea un nuevo fichero en el proyecto que se llame [tu-nombre-de-usuario].html
@@ -69,7 +78,7 @@ git commit -m "Mensaje del commit..."
 git push origin
 ```
 - Desde github crea un pull request de la rama develop a main.
-- Fusiona la rama develop con en main. No deberías de tener ningún conflicto (los veremos más adelante en la [practica 4](https://github.com/josefranciscomunozespinosa/git-practica-4)).
+- Fusiona la rama develop con en main. No deberías de tener ningún conflicto (los conflictos los veremos más adelante en la [practica 4](https://github.com/josefranciscomunozespinosa/git-practica-4)).
 - Haz nuevos cambios en el proyecto siguiendo el flujo de trabajo git flow.
 
 
